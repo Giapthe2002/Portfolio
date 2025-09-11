@@ -1,10 +1,13 @@
 import React from "react";
 import { ThemeProvider } from "./context/ThemeContext";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <ThemeProvider>
-      <div className="text-red-500">App</div>;
+      <div className="">
+        <Navbar />
+      </div>
     </ThemeProvider>
   );
 };
