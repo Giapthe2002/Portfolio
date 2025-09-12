@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 
 import { UseTheme } from "../context/ThemeContext";
-import { SKILLS_CATEGORY, STATS, TECH_STACK } from "../utils/data";
+import { TECH_STACK } from "../utils/data";
 import { containerVariants, itemVariants } from "../utils/helper";
 
 const SkillsSection = () => {
