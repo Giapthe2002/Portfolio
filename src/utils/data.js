@@ -31,6 +31,17 @@ export const SKILLS_CATEGORY = [
   },
 ];
 
+export const TECH_STACK = [
+  "javascript",
+  "HTML5",
+  "CSS3",
+  "Sass",
+  "Vite",
+  "Figma",
+  "Adobe XD",
+  "Slack",
+];
+
 export const STATS = [
   { number: "50+", label: "Projects Completed" },
   { number: "3+", label: "Years Experience" },
