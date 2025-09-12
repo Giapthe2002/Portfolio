@@ -1,24 +1,15 @@
 import {
   Code2,
-  GraduationCap,
-  Briefcase,
-  Award,
-  Rocket,
   Heart,
   Coffee,
   BookOpen,
-  Zap,
-  Database,
-  Server,
-  Cloud,
   Mail,
   MapPin,
   Phone,
 } from "lucide-react";
 
-import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 
-import PROJECT_IMG from "../assets/images/profile.jpg";
 import { image, label } from "framer-motion/client";
 import { color } from "framer-motion";
 
@@ -40,12 +31,6 @@ export const TECH_STACK = [
   "Figma",
   "Adobe XD",
   "Slack",
-];
-
-export const STATS = [
-  { number: "50+", label: "Projects Completed" },
-  { number: "3+", label: "Years Experience" },
-  { number: "100%", label: "Client Statisfation" },
 ];
 
 export const PROJECTS = [
