@@ -1,7 +1,7 @@
 import { ThemeProvider } from "./context/ThemeContext";
 import Navbar from "./components/Navbar";
 import IntroSection from "./components/IntroSection";
-import SkillsSection from "./components/Skills";
+import SkillsSection from "./components/SkillsSection";
 import ProjectsSection from "./components/ProjectsSection";
 
 const App = () => {
