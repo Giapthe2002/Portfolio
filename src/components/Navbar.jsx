@@ -43,7 +43,7 @@ const Navbar = () => {
                 isDarkMode
                   ? "text-gray-400 hover:text-white"
                   : "text-gray-600 hover:text-gray-900"
-              }`}
+              } cursor-pointer`}
             >
               {item}
             </motion.button>
@@ -56,7 +56,7 @@ const Navbar = () => {
               isDarkMode
                 ? "text-gray-400 hover:text-white hover:bg-gray-800"
                 : "text-gray-600 hover:text-gray-900 hover:bg-gray-200"
-            }`}
+            } cursor-pointer`}
           >
             {isDarkMode ? <Sun size={18} /> : <Moon size={18} />}
           </motion.button>
@@ -72,7 +72,7 @@ const Navbar = () => {
               isDarkMode
                 ? "text-gray-400 hover:text-white hover:bg-gray-800"
                 : "text-gray-600 hover:text-gray-900 hover:bg-gray-200"
-            }`}
+            } cursor-pointer`}
           >
             {isDarkMode ? <Sun size={18} /> : <Moon size={18} />}
           </motion.button>
@@ -84,7 +84,7 @@ const Navbar = () => {
               isDarkMode
                 ? "text-gray-400 hover:text-white hover:bg-gray-800"
                 : "text-gray-600 hover:text-gray-900 hover:bg-gray-200"
-            }`}
+            } cursor-pointer`}
           >
             {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
           </motion.button>
@@ -111,7 +111,7 @@ const Navbar = () => {
                   isDarkMode
                     ? "text-gray-400 hover:text-white"
                     : "text-gray-600 hover:text-gray-900"
-                }`}
+                } cursor-pointer`}
               >
                 {item}
               </motion.button>
