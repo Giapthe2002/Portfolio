@@ -1,10 +1,10 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, Mail } from "lucide-react";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
-import { UseTheme } from "../context/ThemeContext";
+import { UseTheme } from "../../context/ThemeContext";
 
-import PROFILE_PIC from "../assets/images/profile.jpg";
-import { containerVariants, itemVariants } from "../utils/helper";
+import PROFILE_PIC from "../../assets/images/profile.jpg";
+import { containerVariants, itemVariants } from "../../utils/helper";
 
 const IntroSection = () => {
   const { isDarkMode } = UseTheme();

@@ -1,8 +1,8 @@
 import { ThemeProvider } from "./context/ThemeContext";
 import Navbar from "./components/Navbar";
-import IntroSection from "./components/IntroSection";
-import SkillsSection from "./components/SkillsSection";
-import ProjectsSection from "./components/ProjectsSection";
+import IntroSection from "./components/Sections/IntroSection";
+import SkillsSection from "./components/Sections/SkillsSection";
+import ProjectsSection from "./components/Sections/ProjectsSection";
 
 const App = () => {
   return (

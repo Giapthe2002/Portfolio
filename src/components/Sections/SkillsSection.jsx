@@ -1,9 +1,9 @@
 import { useRef } from "react";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 
-import { UseTheme } from "../context/ThemeContext";
-import { TECH_STACK } from "../utils/data";
-import { containerVariants, itemVariants } from "../utils/helper";
+import { UseTheme } from "../../context/ThemeContext";
+import { TECH_STACK } from "../../utils/data";
+import { containerVariants, itemVariants } from "../../utils/helper";
 
 const SkillsSection = () => {
   const { isDarkMode } = UseTheme();
