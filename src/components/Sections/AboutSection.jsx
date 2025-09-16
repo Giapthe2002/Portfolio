@@ -280,13 +280,14 @@ const AboutSection = () => {
               Ready to bring your ideas to life?
             </p>
 
-            <motion.button
+            <motion.a
+              href="#contact"
               whileHover={{ y: -2, scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
               className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300 cursor-pointer"
             >
               Let's Work Together
-            </motion.button>
+            </motion.a>
           </motion.div>
         </motion.div>
       </div>
