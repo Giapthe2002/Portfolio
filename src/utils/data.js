@@ -26,11 +26,15 @@ export const TECH_STACK = [
   "Javascript",
   "HTML5",
   "CSS3",
+  "React",
+  "NextJs",
+  "Tailwind CSS",
   "Sass",
   "Vite",
   "Figma",
   "Adobe XD",
   "Slack",
+  "Git",
 ];
 
 export const PROJECTS = [

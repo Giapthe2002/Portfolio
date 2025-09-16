@@ -69,8 +69,8 @@ const SkillsSection = () => {
               isDarkMode ? "text-gray-400" : "text-gray-600"
             } max-w-2xl mx-auto font-light`}
           >
-            A comprehensive toolkit for building modern, scalable web
-            applications from concept to deployment.
+            Designing and developing modern, scalable, and interactive front-end
+            experiences
           </motion.p>
         </motion.div>
 
