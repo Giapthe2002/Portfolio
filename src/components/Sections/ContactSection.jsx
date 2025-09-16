@@ -289,7 +289,7 @@ const ContactSection = () => {
             <h3 className="text-xl font-medium mb-4">Prefer a quick call?</h3>
             <p
               className={`${
-                isDarkMode ? " text-white/80" : " text-blue-600"
+                isDarkMode ? " text-white/80" : " text-gray-700"
               } mb-6`}
             >
               Sometimes a conversation is worth a thousand messages. Feel free

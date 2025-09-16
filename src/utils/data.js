@@ -121,7 +121,7 @@ export const SOCIAL_LINKS = [
   {
     name: "GitHub",
     icon: FiGithub,
-    url: "https://github.com/Giapthe2002?tab=overview&from=2025-08-01&to=2025-08-31",
+    url: "https://github.com/Giapthe2002",
     color: "hover:text-gray-400",
     bgColor: "hover:bg-gray-800",
   },
