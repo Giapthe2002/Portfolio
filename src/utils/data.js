@@ -23,7 +23,7 @@ export const SKILLS_CATEGORY = [
 ];
 
 export const TECH_STACK = [
-  "javascript",
+  "Javascript",
   "HTML5",
   "CSS3",
   "Sass",

@@ -125,7 +125,7 @@ const IntroSection = () => {
                 <span
                   className={`${isDarkMode ? "text-white" : "text-gray-900"}`}
                 >
-                  Building digital
+                  Building web
                 </span>
                 <span className="text-blue-500 font-medium ml-2">
                   experiences
@@ -134,7 +134,7 @@ const IntroSection = () => {
                 <span
                   className={`${isDarkMode ? "text-white" : "text-gray-900"}`}
                 >
-                  that matter
+                  that matter.
                 </span>
               </motion.h1>
               <motion.p
@@ -143,8 +143,8 @@ const IntroSection = () => {
                   isDarkMode ? "text-gray-400" : "text-gray-600"
                 } mb-8 max-w-xl mx-auto font-light leading-relaxed`}
               >
-                I craft beatiful, functional web applications with modern
-                technologies and thoughtful user experiences.
+                Designing and building web applications that combine performance
+                and elegance.
               </motion.p>
 
               {/* CTA Buttons - Mobile */}
@@ -180,8 +180,8 @@ const IntroSection = () => {
                 className="flex justify-center space-x-6 mb-8"
               >
                 {[
-                  { icon: FiGithub, href: "#" },
-                  { icon: Mail, href: "#" },
+                  { icon: FiGithub, href: "https://github.com/Giapthe2002" },
+                  { icon: Mail, href: "mailto:giapthe2002@gmail.com" },
                 ].map((social, index) => (
                   <motion.a
                     key={index}
@@ -216,7 +216,7 @@ const IntroSection = () => {
                 <span
                   className={isDarkMode ? "text-gray-600" : "text-gray-500"}
                 >
-                  Node.js
+                  Nextjs
                 </span>
                 <span
                   className={isDarkMode ? "text-gray-700" : "text-gray-400"}
@@ -236,7 +236,7 @@ const IntroSection = () => {
                 <span
                   className={isDarkMode ? "text-gray-600" : "text-gray-500"}
                 >
-                  MongoDB
+                  Javascript
                 </span>
               </motion.div>
             </motion.div>
@@ -266,7 +266,7 @@ const IntroSection = () => {
                 <span
                   className={`${isDarkMode ? "text-white" : "text-gray-900"}`}
                 >
-                  Building digital
+                  Building web
                 </span>
                 <br />
                 <span className="text-blue-500 font-medium">experiences</span>
@@ -274,7 +274,7 @@ const IntroSection = () => {
                 <span
                   className={`${isDarkMode ? "text-white" : "text-gray-900"}`}
                 >
-                  that matter
+                  that matter.
                 </span>
               </motion.h1>
               <motion.p
@@ -283,8 +283,8 @@ const IntroSection = () => {
                   isDarkMode ? "text-gray-400" : "text-gray-600"
                 } mb-12 font-light leading-relaxed max-w-lg`}
               >
-                I craft beatiful, functional web applications with modern
-                technologies and thoughtful user experiences.
+                Designing and building web applications that combine performance
+                and elegance.
               </motion.p>
 
               {/* CTA Buttons - Desktop */}
@@ -317,8 +317,8 @@ const IntroSection = () => {
                 className="flex space-x-6 mb-12"
               >
                 {[
-                  { icon: FiGithub, href: "#" },
-                  { icon: Mail, href: "#" },
+                  { icon: FiGithub, href: "https://github.com/Giapthe2002" },
+                  { icon: Mail, href: "mailto:giapthe2002@gmail.com" },
                 ].map((social, index) => (
                   <motion.a
                     key={index}
@@ -362,7 +362,7 @@ const IntroSection = () => {
                   <span
                     className={isDarkMode ? "text-gray-600" : "text-gray-500"}
                   >
-                    Node.js
+                    Nextjs
                   </span>
                   <span
                     className={isDarkMode ? "text-gray-700" : "text-gray-400"}
@@ -382,7 +382,7 @@ const IntroSection = () => {
                   <span
                     className={isDarkMode ? "text-gray-600" : "text-gray-500"}
                   >
-                    MongoDB
+                    Javascript
                   </span>
                 </motion.div>
 
