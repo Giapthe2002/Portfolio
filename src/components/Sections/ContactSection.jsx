@@ -7,6 +7,8 @@ import { containerVariants, itemVariants } from "../../utils/helper";
 import TextInput from "../Input/TextInput";
 import SuccessModel from "../SuccessModel";
 
+import emailjs from "@emailjs/browser";
+
 const ContactSection = () => {
   const { isDarkMode } = UseTheme();
   const [formData, setFormData] = useState({
@@ -36,14 +38,26 @@ const ContactSection = () => {
     setIsSubmitting(true);
 
     // Simulate API Call
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    try {
+      await emailjs.send(
+        "service_sishxlv",
+        "template_4ormf3j",
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+        },
+        "h35ktPhFPCtKw15AL"
+      );
 
-    setIsSubmitting(false);
-    setShowSuccess(true);
-    setFormData({ name: "", email: "", message: "" });
-
-    // Auto hide success modal after 3 seconds
-    setTimeout(() => setShowSuccess(false), 3000);
+      setShowSuccess(true);
+      setFormData({ name: "", email: "", message: "" });
+    } catch (error) {
+      console.error("EmailJS error:", error);
+      alert("Failed to send message, please try again!");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -295,7 +309,8 @@ const ContactSection = () => {
               Sometimes a conversation is worth a thousand messages. Feel free
               to schedule a call to discuss your project.
             </p>
-            <motion.button
+            <motion.a
+              href="tel:+84395318514"
               whileHover={{ y: -2, scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
               className={`px-6 py-3 rounded-full border font-medium transition-all duration-300 cursor-pointer ${
@@ -305,7 +320,7 @@ const ContactSection = () => {
               }`}
             >
               Schedule a Call
-            </motion.button>
+            </motion.a>
           </motion.div>
         </motion.div>
       </div>
