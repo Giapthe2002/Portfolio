@@ -114,21 +114,20 @@ const AboutSection = () => {
                   isDarkMode ? "text-gray-300" : "text-gray-700"
                 }`}
               >
-                I believe technology should be a bridge that connects people ang
-                solves real-world problems. My passion lies in crafting digital
-                experiences that are not just functional, but delightful and
-                accessible to everyone.
+                I believe the web should be intuitive, inclusive, and engaging.
+                My focus is on building front-end experiences that are not only
+                functional, but also visually appealing and accessible to all
+                users.
               </p>
               <p
                 className={`text-base leading-relaxed ${
                   isDarkMode ? "text-gray-400" : "text-gray-600"
                 }`}
               >
-                When I'm not coding, you'll find me exploring frameworks,
-                contributing to open source, or mentoring aspiring developers. I
-                love the constant evolution of web technologies and endless
-                possibilities they bring to create meaningful digital
-                experiences.
+                When I’m not coding, I enjoy exploring new frameworks, designing
+                smooth interactions, and sharing knowledge with the developer
+                community. The fast-paced evolution of web technologies keeps me
+                inspired to craft meaningful and modern digital experiences.
               </p>
             </motion.div>
 
@@ -177,10 +176,10 @@ const AboutSection = () => {
               >
                 Crafted with passion by
               </div>
-              {/* DigitalSignatute image */}
+              {/* DigitalSignatute image
               <div className="flex justify-center">
                 <img src={SIGNATURE} alt="Alex" className="w-28" />
-              </div>
+              </div> */}
               <div className="text-lg font-medium text-blue-500 mt-2">
                 GiapThe2002
               </div>

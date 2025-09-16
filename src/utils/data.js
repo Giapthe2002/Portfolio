@@ -75,29 +75,29 @@ export const PROJECTS = [
 
 export const JOURNEY_STEPS = [
   {
-    year: "2021",
+    year: "2023",
     title: "Started Coding Journey",
     Company: "Self-taught",
     description:
-      "Began learning web development with HTML, CSS, Javascript. Built my first website",
+      "Discovered web development and built my first website with HTML, CSS, and JavaScript.",
     icon: Code2,
     color: "bg-blue-500",
   },
   {
-    year: "2021",
-    title: "Started Coding Journey",
-    Company: "Self-taught",
+    year: "2024",
+    title: "Exploring Mobile Development",
+    Company: "React Native",
     description:
-      "Began learning web development with HTML, CSS, Javascript. Built my first website",
+      "Dived into React Native to build cross-platform mobile apps. Learned to manage state, handle navigation, and integrate APIs for projects.",
     icon: Code2,
     color: "bg-green-500",
   },
   {
-    year: "2021",
-    title: "Started Coding Journey",
-    Company: "Self-taught",
+    year: "2024 - now",
+    title: "Diving Deeper into Frontend",
+    Company: "React → Next.js",
     description:
-      "Began learning web development with HTML, CSS, Javascript. Built my first website",
+      "Developed real-world projects using React, focusing on responsive UIs and smooth user experiences. Currently expanding my skills with Next.js to build modern, scalable web applications with server-side rendering and advanced features.",
     icon: Code2,
     color: "bg-purple-500",
   },
@@ -107,17 +107,20 @@ export const PASSIONS = [
   {
     icon: Heart,
     title: "User experience",
-    description: "Crafting intuitive interfaces that users love",
+    description:
+      "Crafting intuitive and accessible interfaces that users enjoy.",
   },
   {
     icon: Coffee,
-    title: "User experience",
-    description: "Crafting intuitive interfaces that users love",
+    title: "Interactive Web Apps",
+    description:
+      "Building fast, responsive, and engaging front-end applications.",
   },
   {
     icon: BookOpen,
-    title: "User experience",
-    description: "Crafting intuitive interfaces that users love",
+    title: "Design & Animation",
+    description:
+      "Bringing ideas to life with clean design, smooth transitions, and micro-interactions.",
   },
 ];
 
