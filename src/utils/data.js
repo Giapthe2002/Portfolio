@@ -10,8 +10,9 @@ import {
 
 import { FiGithub } from "react-icons/fi";
 
-import { image, label } from "framer-motion/client";
-import { color } from "framer-motion";
+import TeamTracker from "../../src/assets/images/TeamTracker.png";
+import appCalo from "../../src/assets/images/appCalo.png";
+import ZConcert from "../../src/assets/images/Zconcert.png";
 
 export const SKILLS_CATEGORY = [
   {
@@ -40,36 +41,39 @@ export const TECH_STACK = [
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "TeamTracker",
     description:
-      "A full-stack e-commerce solution with advanced filtering, payment integration.",
-    image: "",
-    tags: ["React", "Tailwind", "Framer motion"],
+      "A task management web application built with React, featuring progress tracking and team collaboration.",
+    image: TeamTracker,
+    tags: ["React", "Tailwind CSS", "Express", "MongoDB"],
     liveUrl: "#",
     featured: false,
     category: "Full Stack",
+    githubUrl: "https://github.com/Giapthe2002/TeamTracker-FE",
   },
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "VigorLife",
     description:
-      "A full-stack e-commerce solution with advanced filtering, payment integration.",
-    image: "",
-    tags: ["React", "Tailwind", "Framer motion"],
+      "A mobile app developed with React Native to track daily calorie intake and output",
+    image: appCalo,
+    tags: ["React Native", "Express", "NodeJs"],
     liveUrl: "#",
     featured: false,
     category: "Full Stack",
+    githubUrl: "https://github.com/Giapthe2002/vigor-life-fe",
   },
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Z Concert",
     description:
-      "A full-stack e-commerce solution with advanced filtering, payment integration.",
-    image: "",
-    tags: ["React", "Tailwind", "Framer motion"],
+      "An online platform for seamless and secure event ticket booking.",
+    image: ZConcert,
+    tags: ["TypeScript", "SCSS"],
     liveUrl: "#",
     featured: false,
-    category: "Full Stack",
+    category: "Frontend",
+    githubUrl: "https://github.com/Giapthe2002/zconcert2024-fe",
   },
 ];
 

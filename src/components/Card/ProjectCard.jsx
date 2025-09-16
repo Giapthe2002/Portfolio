@@ -34,7 +34,7 @@ const ProjectCard = ({ project, index, isDarkMode }) => {
           <img
             src={project.image}
             alt={project.title}
-            className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
+            className="w-full h-48 object-contain transition-transform duration-500 group-hover:scale-105"
           />
 
           {/* Featured Badge */}
@@ -47,7 +47,7 @@ const ProjectCard = ({ project, index, isDarkMode }) => {
           )}
 
           {/* Category Badge */}
-          <div className="absolute top-4 right-4">
+          {/* <div className="absolute top-4 right-4">
             <span
               className={`text-xs px-3 py-1 rounded-full font-medium ${
                 isDarkMode
@@ -57,7 +57,7 @@ const ProjectCard = ({ project, index, isDarkMode }) => {
             >
               {project.category}
             </span>
-          </div>
+          </div> */}
 
           {/* Hover Overlay with CTA Buttons */}
           <motion.div
@@ -66,7 +66,7 @@ const ProjectCard = ({ project, index, isDarkMode }) => {
             transition={{ duration: 0.3 }}
             className="absolute inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center space-x-4"
           >
-            <motion.a
+            {/* <motion.a
               href={project.liveUrl}
               initial={{ y: 20, opacity: 0.5 }}
               whileHover={{ y: 0, opacity: 1, scale: 1.05 }}
@@ -75,7 +75,7 @@ const ProjectCard = ({ project, index, isDarkMode }) => {
             >
               <ExternalLink size={16} />
               <span>Live Demo</span>
-            </motion.a>
+            </motion.a> */}
 
             <motion.a
               href={project.githubUrl}
