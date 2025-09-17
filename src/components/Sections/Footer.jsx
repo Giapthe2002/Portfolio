@@ -195,7 +195,7 @@ const Footer = () => {
                 }`}
               >
                 <Copyright size={12} className="" />
-                {new Date().getFullYear()} Time To Program. All rihgts reserved.
+                {new Date().getFullYear()} GiapThe. All rights reserved.
               </p>
               <p
                 className={`text-xs ${
